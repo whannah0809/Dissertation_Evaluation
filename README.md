@@ -7,4 +7,6 @@ The evaluation builds on Adasim, a visualization of the automated traffic routin
 
 With multiple routing strategies available, the experimentation code tests the amount of correct decisions made for a system using a digital twin that evaluates between a multiplicity of routing strategies based on current known environmental factors. The digital twin system is tested against systems using a single routing algorithm, and is evaluated based on accuracy and scalability (the routing problem size). 
 
+Please read the readme files in the respective experimentation directories to run the experiments.
+
 This dissertation project received an A grade at Lancaster University.
