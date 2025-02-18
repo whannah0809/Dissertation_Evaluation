@@ -1,0 +1,42 @@
+-------------------------------------------Adasim README----------------------------------------------
+How to?
+1- you need to install "ant" if you mac user.  just run "brew install ant"
+2- go to the code and edit the code, for me i added log in "TrafficMain.java" that was "logger.info("=======welcome=======");" in main method
+3- go to the project "adasim" root directory and build the jar  using
+ant compile
+ant jar-deps
+
+4- Run the jar using
+
+java -jar adasim-1.0.0-deps.jar -I resources/test/config.xml
+
+-------------------------------------------TYP README----------------------------------------------
+
+This directory is the project file for carrying out the adaptive decision making performance testing for 
+different routing implementations. To run, install ant as described in the Adasim folder README and follow:
+
+1. Navigate to the Decision Making Experiments/adasim_DIGITAL TWIN directory.
+2. Run:
+
+ant compile
+
+ant jar-deps
+
+java -jar adasim-1.0.0-deps.jar
+
+3. Navigate to the Decision Making Experiments/adasim_CLIENT directory.
+4. Run:
+
+ant compile
+
+ant jar-deps
+
+java -jar adasim-1.0.0-deps.jar n
+
+where n is the index of the strategy to be tested: 
+0. Strategy_0 
+1. Strategy_1
+2. Strategy_2
+3. Strategy_3
+4. Digital Twin Structure
+
